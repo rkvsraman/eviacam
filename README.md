@@ -3,7 +3,9 @@
 * git clone https://github.com/rkvsraman/eviacam.git
 * cd eviacam
 * ./configure
+* make clean
 * make
 * cd src
 * ./eviacam
+
 
