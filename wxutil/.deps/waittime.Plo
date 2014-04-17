@@ -1,0 +1,8 @@
+waittime.lo: waittime.cpp /usr/include/stdc-predef.h waittime.h \
+ timeutil.h
+
+/usr/include/stdc-predef.h:
+
+waittime.h:
+
+timeutil.h:
