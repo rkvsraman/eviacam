@@ -2137,8 +2137,8 @@ static CControlId get_control_id_from_v4l2 (int v4l2_id, Device *dev)
 		case V4L2_CID_GAIN:					return CC_GAIN;
 		case V4L2_CID_HFLIP:				break;	// not supported by libwebcam
 		case V4L2_CID_VFLIP:				break;	// not supported by libwebcam
-		//case V4L2_CID_HCENTER:				break;	// deprecated
-		//case V4L2_CID_VCENTER:				break;	// deprecated
+        //case V4L2_CID_HCENTER:				break;	// deprecated commennted by Raman cos they break
+        //case V4L2_CID_VCENTER:				break;	// deprecated commennted by Raman cos they break
 #ifdef V4L2_CID_POWER_LINE_FREQUENCY
 		case V4L2_CID_POWER_LINE_FREQUENCY:		return CC_POWER_LINE_FREQUENCY;
 #endif
