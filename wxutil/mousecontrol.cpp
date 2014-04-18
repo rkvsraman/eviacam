@@ -393,6 +393,8 @@ void CMouseControl::DoMovePointerRel (long dx, long dy)
 // Send a mouse control system command
 void CMouseControl::SendMouseCommand (long x, long y, int flags)
 {
+ printf("Mouse pointer %ld %ld %d\n",x,y,flags);
+ //return;
 #if defined(WIN32)
 	INPUT ip;
 
