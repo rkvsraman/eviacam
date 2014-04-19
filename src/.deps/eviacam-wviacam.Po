@@ -311,8 +311,19 @@ eviacam-wviacam.o: wviacam.cpp /usr/include/stdc-predef.h \
  ../creavision/crvhistogram.h ../wxcamwindow/visiblenormroi.h \
  ../creavision/crvnormroi.h ../creavision/crvimage.h ../wxutil/waittime.h \
  wwizardmanager.h ../wxutil/configmanager.h ../wxutil/configbase.h \
- eviacamapp.h pointeraction.h ../wxutil/mousecontrol.h dwellclick.h \
- cvisualalert.h /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+ eviacamapp.h pointeraction.h ../wxutil/mousecontrol.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/microhttpd.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h dwellclick.h cvisualalert.h \
+ /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h mousecommand.h \
  paths.h checkupdates.h checkupdates_ui.h \
  /usr/include/wx-2.8/wx/hyperlink.h icons/eviacam_mini.xpm icons/on.xpm \
@@ -1281,6 +1292,30 @@ eviacamapp.h:
 pointeraction.h:
 
 ../wxutil/mousecontrol.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/microhttpd.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 dwellclick.h:
 

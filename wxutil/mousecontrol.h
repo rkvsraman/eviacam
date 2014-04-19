@@ -23,7 +23,13 @@
 #define MOUSECONTROL_H
 
 #include <stdlib.h>		// NULL
-#include <assert.h>		
+#include <assert.h>
+#include <sys/types.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <string.h>
+#include <stdio.h>
+#include <microhttpd.h>
 
 class CMouseControl
 {
@@ -107,12 +113,16 @@ protected:
 	bool CheckClickArea ();
 	bool EnforceWorkingAreaLimits (long &x, long &y);
 	void SendMouseCommand (long x, long y, int flags);
+    int answer_to_connection (void *cls, struct MHD_Connection *connection,
+                  const char *url, const char *method,
+                  const char *version, const char *upload_data,
+                  size_t * upload_data_size, void **con_cls);
 	
 	void DoMovePointerRel (long dx, long dy);
 	void RecomputeWorkingArea ();
 
 	// TODO: derive a X11 file stuff for these
-	void GetScreenSize();
+    void GetScreenSize();
 	
 	
 private:	

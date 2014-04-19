@@ -47,11 +47,27 @@ wxappbar.lo: wxappbar.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/include/wx-2.8/wx/timer.h /usr/include/wx-2.8/wx/object.h \
- /usr/include/wx-2.8/wx/memory.h /usr/include/wx-2.8/wx/string.h \
- /usr/include/wx-2.8/wx/buffer.h /usr/include/wx-2.8/wx/strconv.h \
- /usr/include/wx-2.8/wx/fontenc.h /usr/include/wx-2.8/wx/beforestd.h \
- /usr/include/c++/4.8/string \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/microhttpd.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/wx-2.8/wx/timer.h \
+ /usr/include/wx-2.8/wx/object.h /usr/include/wx-2.8/wx/memory.h \
+ /usr/include/wx-2.8/wx/string.h /usr/include/wx-2.8/wx/buffer.h \
+ /usr/include/wx-2.8/wx/strconv.h /usr/include/wx-2.8/wx/fontenc.h \
+ /usr/include/wx-2.8/wx/beforestd.h /usr/include/c++/4.8/string \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h \
@@ -112,15 +128,10 @@ wxappbar.lo: wxappbar.cpp /usr/include/stdc-predef.h \
  /usr/include/wx-2.8/wx/cursor.h /usr/include/wx-2.8/wx/gtk/cursor.h \
  /usr/include/wx-2.8/wx/utils.h /usr/include/wx-2.8/wx/filefn.h \
  /usr/include/wx-2.8/wx/arrstr.h /usr/include/x86_64-linux-gnu/sys/stat.h \
- /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
- /usr/include/x86_64-linux-gnu/bits/uio.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
  /usr/include/wx-2.8/wx/platinfo.h /usr/include/wx-2.8/wx/thread.h \
  /usr/include/wx-2.8/wx/dynarray.h /usr/include/wx-2.8/wx/stopwatch.h \
@@ -866,6 +877,48 @@ mousecontrol.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/microhttpd.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
 /usr/include/wx-2.8/wx/timer.h:
 
 /usr/include/wx-2.8/wx/object.h:
@@ -1038,18 +1091,6 @@ mousecontrol.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
-/usr/include/unistd.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/getopt.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
 /usr/include/dirent.h:
 
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
@@ -1059,8 +1100,6 @@ mousecontrol.h:
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl2.h:
 

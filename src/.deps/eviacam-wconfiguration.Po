@@ -270,7 +270,18 @@ eviacam-wconfiguration.o: wconfiguration.cpp /usr/include/stdc-predef.h \
  ../creavision/crvimage.h /usr/include/c++/4.8/list \
  /usr/include/c++/4.8/bits/stl_list.h /usr/include/c++/4.8/bits/list.tcc \
  ../wxutil/waittime.h wwizardmanager.h clickwindowcontroller.h \
- mousecommand.h pointeraction.h ../wxutil/mousecontrol.h cautostart.h \
+ mousecommand.h pointeraction.h ../wxutil/mousecontrol.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/microhttpd.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h cautostart.h \
  ../wxutil/configmanager.h ../wxutil/configbase.h wgetkey.h dwellclick.h \
  cvisualalert.h /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h gestureclick.h \
@@ -1086,6 +1097,30 @@ mousecommand.h:
 pointeraction.h:
 
 ../wxutil/mousecontrol.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/microhttpd.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 cautostart.h:
 

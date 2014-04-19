@@ -219,13 +219,24 @@ eviacam-clickwindowbitmapvertical.o: clickwindowbitmapvertical.cpp \
  /usr/include/wx-2.8/wx/listctrl.h /usr/include/wx-2.8/wx/listbase.h \
  /usr/include/wx-2.8/wx/generic/listctrl.h clickwindowbitmapvertical.h \
  clickwindow.h ../wxutil/wxappbar.h ../wxutil/mousecontrol.h \
- clickwindowcontroller.h ../wxutil/configbase.h \
- /usr/include/wx-2.8/wx/config.h /usr/include/wx-2.8/wx/confbase.h \
- /usr/include/wx-2.8/wx/fileconf.h /usr/include/wx-2.8/wx/textfile.h \
- /usr/include/wx-2.8/wx/textbuf.h /usr/include/wx-2.8/wx/convauto.h \
- /usr/include/wx-2.8/wx/file.h mousecommand.h icons/eviacam_gray_bg.xpm \
- icons/buttonNoClick.xpm icons/buttonLeft.xpm \
- icons/buttonLeftDisabled.xpm icons/buttonMiddle.xpm \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/microhttpd.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h clickwindowcontroller.h \
+ ../wxutil/configbase.h /usr/include/wx-2.8/wx/config.h \
+ /usr/include/wx-2.8/wx/confbase.h /usr/include/wx-2.8/wx/fileconf.h \
+ /usr/include/wx-2.8/wx/textfile.h /usr/include/wx-2.8/wx/textbuf.h \
+ /usr/include/wx-2.8/wx/convauto.h /usr/include/wx-2.8/wx/file.h \
+ mousecommand.h icons/eviacam_gray_bg.xpm icons/buttonNoClick.xpm \
+ icons/buttonLeft.xpm icons/buttonLeftDisabled.xpm icons/buttonMiddle.xpm \
  icons/buttonMiddleDisabled.xpm icons/buttonRight.xpm \
  icons/buttonRightDisabled.xpm icons/buttonDrag.xpm \
  icons/buttonDragDisabled.xpm icons/buttonDblLeft.xpm \
@@ -911,6 +922,34 @@ clickwindow.h:
 ../wxutil/wxappbar.h:
 
 ../wxutil/mousecontrol.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/microhttpd.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 clickwindowcontroller.h:
 

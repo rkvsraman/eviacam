@@ -188,7 +188,7 @@ LDFLAGS =  -Wl,--as-needed
 LIBICONV = -liconv
 LIBINTL = 
 LIBOBJS = 
-LIBS = -lXtst -lXext -lX11 
+LIBS = -lXtst -lXext -lX11 -lmicrohttpd
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s
@@ -416,7 +416,7 @@ eviacam_SOURCES = wgetkey.cpp \
 	website.cpp
 
 eviacam_CPPFLAGS = -DLOCALEDIR=\"$(localedir)\" -DOPENCVVERSION=$(OPENCVVERSION)
-eviacam_LDFLAGS = $(WX_LIBS) $(OPENCV_LIBS) -lXtst -lXext -lX11
+eviacam_LDFLAGS = $(WX_LIBS) $(OPENCV_LIBS) -lXtst -lXext -lX11 -lmicrohttpd 
 INCLUDES = \
 	-I$(top_srcdir)/creavision \
 	-I$(top_srcdir)/simplelog \

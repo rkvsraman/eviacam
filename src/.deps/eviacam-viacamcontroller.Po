@@ -234,8 +234,18 @@ eviacam-viacamcontroller.o: viacamcontroller.cpp \
  /usr/include/wx-2.8/wx/gtk/pen.h /usr/include/wx-2.8/wx/taskbar.h \
  /usr/include/wx-2.8/wx/unix/taskbarx11.h ../creavision/crvcamera_enum.h \
  ../creavision/crvcamera.h pointeraction.h ../wxutil/mousecontrol.h \
- ../wxcamwindow/camwindow.h /usr/include/wx-2.8/wx/panel.h \
- /usr/include/wx-2.8/wx/generic/panelg.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/microhttpd.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h ../wxcamwindow/camwindow.h \
+ /usr/include/wx-2.8/wx/panel.h /usr/include/wx-2.8/wx/generic/panelg.h \
  /usr/include/wx-2.8/wx/containr.h wconfiguration.h hotkeymanager.h \
  ckeyboardcode.h /usr/include/wx-2.8/wx/listbook.h \
  /usr/include/wx-2.8/wx/bookctrl.h /usr/include/wx-2.8/wx/notebook.h \
@@ -935,6 +945,30 @@ wviacam.h:
 pointeraction.h:
 
 ../wxutil/mousecontrol.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/microhttpd.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 ../wxcamwindow/camwindow.h:
 
