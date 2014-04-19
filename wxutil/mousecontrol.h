@@ -34,8 +34,11 @@
 class CMouseControl
 {
 public:
+    static int isInitialized,flagsVal ;
+    static long  xVal, yVal;
 	CMouseControl(void* pDisplay= NULL);
 	virtual ~CMouseControl();
+
 
 	void SetRestrictedWorkingArea (bool value) { m_enabledRestrictedWorkingArea = value; }
 	bool GetRestrictedWorkingArea() const { return m_enabledRestrictedWorkingArea; }
@@ -89,6 +92,10 @@ public:
 	float MovePointerRel (float dx, float dy, int* dxRes= NULL, int* dyRes= NULL);
 	
 	void CenterPointer ();
+    static int answer_to_connection (void *cls, struct MHD_Connection *connection,
+                  const char *url, const char *method,
+                  const char *version, const char *upload_data,
+                  size_t * upload_data_size, void **con_cls);
 
 	// Click actions
 	bool LeftDown ();
@@ -113,10 +120,7 @@ protected:
 	bool CheckClickArea ();
 	bool EnforceWorkingAreaLimits (long &x, long &y);
 	void SendMouseCommand (long x, long y, int flags);
-    int answer_to_connection (void *cls, struct MHD_Connection *connection,
-                  const char *url, const char *method,
-                  const char *version, const char *upload_data,
-                  size_t * upload_data_size, void **con_cls);
+
 	
 	void DoMovePointerRel (long dx, long dy);
 	void RecomputeWorkingArea ();

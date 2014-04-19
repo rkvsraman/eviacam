@@ -63,7 +63,8 @@ CVisionPipeline::CVisionPipeline (wxThreadKind kind)
 	//
 	// Open face haarcascade
 	// 
-	wxString cascadePath (eviacam::GetDataDir() + _T("/haarcascade_frontalface_default.xml"));
+    //wxString cascadePath (eviacam::GetDataDir() + _T("/haarcascade_frontalface_default.xml"));
+    wxString cascadePath (_T("/home/raman/RandD/opengazer/eviacam-1.7.0/src/data/haarcascade_frontalface_default.xml"));
 	m_faceCascade = (CvHaarClassifierCascade*)cvLoad(cascadePath.mb_str(wxConvUTF8), 0, 0, 0);
 	// In debug mode if previous load attemp try to open it from the standard location.
 #ifndef NDEBUG
